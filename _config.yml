@@ -38,9 +38,9 @@ social:
   email: lmaczulajtys@gmail.com             # change to your email address
   links:
     # The first element serves as the copyright owner's link
+    - https://www.linkedin.com/in/lukasz-maczulajtys
     - https://github.com/lmaczulajtys
     - https://twitter.com/lmaczulajtys
-    - https://www.linkedin.com/in/lukasz-maczulajtys
 
 google_site_verification: google_meta_tag_verification # change to your verification string
 # --------------------------
@@ -77,8 +77,8 @@ theme_mode:   # [light|dark]
 img_cdn: ''
 
 # the avatar on sidebar, support local or CORS resources
-# avatar: https://cdn.jsdelivr.net/gh/cotes2020/chirpy-images/commons/avatar.jpg
-avatar: https://media-exp1.licdn.com/dms/image/C4D03AQElH-WkZsmQIg/profile-displayphoto-shrink_400_400/0/1516960848471?e=1619654400&v=beta&t=8tDGHztZ-dGkupG8C1GGYv_JXewI9dOOBCxbsDrKTUE
+avatar: assets/img/avatar.jpg
+# avatar: https://media-exp1.licdn.com/dms/image/C4D03AQElH-WkZsmQIg/profile-displayphoto-shrink_400_400/0/1516960848471?e=1619654400&v=beta&t=8tDGHztZ-dGkupG8C1GGYv_JXewI9dOOBCxbsDrKTUE
 
 # boolean type, the global switch for ToC in posts.
 toc: true
