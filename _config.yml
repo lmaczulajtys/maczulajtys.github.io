@@ -23,7 +23,7 @@ description: >-                        # used by seo meta and the atom feed
   Personal blog about public cloud, agile and software development.
 
 # fill in the protocol & hostname for your site, e.g., 'https://username.github.io'
-url: 'https://maczulajtys.github.io'
+url: 'https://maczulajtys.com'
 
 author: Łukasz Maczułajtys                  # change to your full name
 
@@ -46,7 +46,7 @@ google_site_verification: google_meta_tag_verification # change to your verifica
 # --------------------------
 
 google_analytics:
-  id: ''          # Fill with your Google Analytics ID
+  id: 'G-X5H3B4XFWH'          # Fill with your Google Analytics ID
   pv:
     # The Google Analytics pageviews switch.
     # DO NOT enable it unless you know how to deploy the Google Analytics superProxy.
@@ -67,7 +67,7 @@ google_analytics:
 #     light  - Use the light color scheme
 #     dark   - Use the dark color scheme
 #
-theme_mode:   # [light|dark]
+theme_mode:    [dark]
 
 # The CDN endpoint for images.
 # Notice that once it is assigned, the CDN url
@@ -78,7 +78,6 @@ img_cdn: ''
 
 # the avatar on sidebar, support local or CORS resources
 avatar: assets/img/avatar.jpg
-# avatar: https://media-exp1.licdn.com/dms/image/C4D03AQElH-WkZsmQIg/profile-displayphoto-shrink_400_400/0/1516960848471?e=1619654400&v=beta&t=8tDGHztZ-dGkupG8C1GGYv_JXewI9dOOBCxbsDrKTUE
 
 # boolean type, the global switch for ToC in posts.
 toc: true

@@ -7,9 +7,9 @@
    type: linkedin
    icon: 'fab fa-linkedin'
    url:  'https://www.linkedin.com/in/lukasz-maczulajtys/'
-#-
-#  type: twitter
-#  icon: 'fab fa-twitter'
+-
+  type: twitter
+  icon: 'fab fa-twitter'
 -
   type: email
   icon: 'fas fa-envelope'
