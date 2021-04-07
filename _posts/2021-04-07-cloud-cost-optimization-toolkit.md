@@ -34,9 +34,9 @@ Automatic recommendations based on current resuorce consumption.
 ## Instances start/stop scheduling
 Automatic startup and shutdown of virtual machines or databases. For example, you can automatically shutdown your development environments for the evening or weekends.
 * AWS
-    * [Start/Stop VMs during off-hours](https://docs.microsoft.com/en-us/azure/automation/automation-solution-vm-management)
-* Azure
     * [AWS Instance Scheduler](https://aws.amazon.com/solutions/implementations/instance-scheduler/) - complex solution from AWS
+* Azure
+    * [Start/Stop VMs during off-hours](https://docs.microsoft.com/en-us/azure/automation/automation-solution-vm-management)
 * Google Cloud Platform
     * [Scheduling compute instances with Cloud Scheduler](https://cloud.google.com/scheduler/docs/start-and-stop-compute-engine-instances-on-a-schedule)
     * [github.com/lmaczulajtys/gcp-instance-scheduler](https://github.com/lmaczulajtys/gcp-instance-scheduler) - similar to AWS solution written in Python
@@ -45,12 +45,14 @@ Automatic startup and shutdown of virtual machines or databases. For example, yo
 ## Instances reservation
 Up to 70% discounts for reserving resources for 1 or 3 years.
 * AWS
-  * [Amazon EC2 Reserved Instances](https://aws.amazon.com/ec2/pricing/reserved-instances/)
-  * [Savings Plans](https://docs.aws.amazon.com/savingsplans/latest/userguide/what-is-savings-plans.html)
+  * If you know amount and type of machines you want to reserve:
+    * [Amazon EC2 Reserved Instances](https://aws.amazon.com/ec2/pricing/reserved-instances/)
+    * [Amazon RDS Reserved Instances](https://aws.amazon.com/rds/reserved-instances/)
+  * If you know how much ($/hour) computing power you are buing:
+    * [Savings Plans](https://docs.aws.amazon.com/savingsplans/latest/userguide/what-is-savings-plans.html)
 * Azure
   * [Reservations](https://azure.microsoft.com/en-us/reservations/)
 * Google Cloud Platform
-  * [Reservations](https://cloud.google.com/compute/docs/instances/reserving-zonal-resources)
   * [Committed use discounts](https://cloud.google.com/compute/docs/instances/signing-up-committed-use-discounts)
 
 ## Spot/preemtible instances
